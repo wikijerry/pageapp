@@ -7,3 +7,7 @@ class HomepageView(TemplateView):
 class AboutpageView(TemplateView):
     template_name = "about.html"
 
+
+'''npm uninstall -g heroku-cli
+npm i -g heroku 
+pip install node'''
