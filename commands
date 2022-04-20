@@ -1,0 +1,13 @@
+heroku login
+Pipenv install/pip install Pipenv
+Pipenv lock
+procfile
+git status
+py manage.py migrate
+heroku create
+settings-allowed host['*']
+git status
+git add -A/git add .
+heroku git:remote -a sleepy-bayou-01324
+git push heroku master/main
+heroku ps:scale web=1
